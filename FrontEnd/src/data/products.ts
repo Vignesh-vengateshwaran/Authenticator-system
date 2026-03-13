@@ -1,0 +1,58 @@
+import type { Product } from '../types'
+
+export const products: Product[] = [
+  {
+    id:          1,
+    name:        'Wireless Headphones',
+    price:       79.99,
+    description: 'Great sound quality with noise cancellation and 30 hour battery.',
+    category:    'Electronics',
+    image:       'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop',
+    stock:       24,
+  },
+  {
+    id:          2,
+    name:        'Leather Watch',
+    price:       149.99,
+    description: 'Classic leather strap watch with a clean and simple dial design.',
+    category:    'Accessories',
+    image:       'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop',
+    stock:       12,
+  },
+  {
+    id:          3,
+    name:        'Coffee Set',
+    price:       49.99,
+    description: 'Complete pour-over coffee kit with ceramic dripper and glass carafe.',
+    category:    'Kitchen',
+    image:       'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop',
+    stock:       38,
+  },
+  {
+    id:          4,
+    name:        'Running Shoes',
+    price:       89.99,
+    description: 'Lightweight and comfortable shoes perfect for daily running.',
+    category:    'Footwear',
+    image:       'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop',
+    stock:       50,
+  },
+  {
+    id:          5,
+    name:        'Canvas Tote Bag',
+    price:       34.99,
+    description: 'Eco-friendly tote bag with strong handles. Great for everyday use.',
+    category:    'Bags',
+    image:       'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=300&fit=crop',
+    stock:       60,
+  },
+  {
+    id:          6,
+    name:        'Succulent Plant Set',
+    price:       24.99,
+    description: 'Set of 4 small succulents in terracotta pots. Easy to care for.',
+    category:    'Home',
+    image:       'https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&h=300&fit=crop',
+    stock:       30,
+  },
+]
